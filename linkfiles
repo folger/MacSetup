@@ -1,7 +1,10 @@
 #! /bin/bash
 
+path=~/MacSetup
+
 for file in .bash_profile .bashrc .inputrc .vimrc
   do
-    ln -s $file ../$file
+    ln -s $path/$file $path/../$file
   done
+
 
