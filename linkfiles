@@ -1,0 +1,7 @@
+#! /bin/bash
+
+for file in .bash_profile .bashrc .inputrc .vimrc
+  do
+    ln -s $file ../$file
+  done
+
