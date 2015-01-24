@@ -13,7 +13,7 @@ export GREP_OPTIONS='--color=auto'
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-export SCALA_HOME='/usr/local/share/scala'
+#export SCALA_HOME='/usr/local/share/scala'
 
 export VIM_APP_DIR='/Applications/MacVim'
 

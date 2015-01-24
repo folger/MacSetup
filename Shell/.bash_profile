@@ -4,11 +4,10 @@
 [ -f ~/.bashrc ] && source ~/.bashrc
 
 # bash-completion
-if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
-    . /opt/local/etc/profile.d/bash_completion.sh
+# brew install bash_completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
 fi
 
 # git completion
-# if [ -f Completion/git-completion.bash ]; then
   source ~/MacSetup/Completion/git-completion.bash
-# fi
